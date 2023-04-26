@@ -27,7 +27,7 @@ void Graph::inner(int current, int to, bool visited[], int& min, int currentDist
     }
     else
     {
-        // int i = current;                  //для незамкнутого цикла
+        // int i = current;                  //РґР»СЏ РЅРµР·Р°РјРєРЅСѓС‚РѕРіРѕ С†РёРєР»Р°
         for (int i = 0; i < SIZE; i++)
         {
 
