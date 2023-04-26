@@ -12,16 +12,16 @@ int main() {
 	int count(0);
 
     Graph g;
-	g.addVertex("Олег");
-	g.addVertex("Никита");
-	g.addVertex("Настя");
-	g.addVertex("Ваня");
-	g.addVertex("Женя");
+	g.addVertex("РћР»РµРі");
+	g.addVertex("РќРёРєРёС‚Р°");
+	g.addVertex("РќР°СЃС‚СЏ");
+	g.addVertex("Р’Р°РЅСЏ");
+	g.addVertex("Р–РµРЅСЏ");
 
-    g.addEdge("Олег", "Никита");
-    g.addEdge("Никита", "Настя");
-    g.addEdge("Настя", "Ваня");
-    g.addEdge("Ваня", "Женя");
+    g.addEdge("РћР»РµРі", "РќРёРєРёС‚Р°");
+    g.addEdge("РќРёРєРёС‚Р°", "РќР°СЃС‚СЏ");
+    g.addEdge("РќР°СЃС‚СЏ", "Р’Р°РЅСЏ");
+    g.addEdge("Р’Р°РЅСЏ", "Р–РµРЅСЏ");
 
 	for (int i = 0; i < SIZE; i++)
 	{
